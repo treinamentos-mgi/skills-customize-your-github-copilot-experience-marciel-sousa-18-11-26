@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-fastapi-apis",
+      "title": "Testing REST APIs with FastAPI",
+      "description": "Practice automated API testing with pytest and FastAPI TestClient, including response, status code, and validation checks.",
+      "path": "assignments/testing-fastapi-apis",
+      "dueDate": "2026-11-25",
+      "attachments": [
+        {
+          "name": "API de exemplo",
+          "file": "main.py",
+          "type": "python"
+        },
+        {
+          "name": "Testes iniciais",
+          "file": "test_main.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
