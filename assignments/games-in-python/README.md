@@ -1,24 +1,36 @@
 
-# 📘 Assignment: Hangman Game
+# 📘 Atividade: Jogo da Forca
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Create a Python word-guessing game to practice strings, loops, conditionals, random selection, and user input.
+Crie um jogo da Forca em Python para praticar manipulação de strings, laços, condicionais, seleção aleatória e entrada de dados.
 
-## 📝 Tasks
+## 📝 Tarefas
 
-### 🛠️ Build the Hangman Game
+### 🛠️ Implementar as tentativas do jogo
 
-#### Description
+#### Descrição
 
-Write a program that selects a hidden word and lets the player guess its letters before running out of attempts.
+Escreva um programa que escolha uma palavra secreta e permita que o jogador tente adivinhá-la letra por letra.
 
-#### Requirements
+#### Requisitos
 
-The completed program must:
+O programa concluído deve:
 
-- Select a word at random from a predefined list.
-- Accept letter guesses and display the correctly guessed letters in the word, using placeholders such as `_ _ _` for letters not yet guessed.
-- Track and display the number of incorrect attempts remaining.
-- End when the player guesses the word or runs out of attempts.
-- Display a victory message when the word is guessed and a defeat message when attempts run out.
+- Selecionar aleatoriamente uma palavra de uma lista predefinida.
+- Aceitar palpites de letras e mostrar as letras adivinhadas nas posições correspondentes, usando espaços reservados como `_ _ _` para as letras ainda não reveladas.
+- Acompanhar e exibir o número de tentativas incorretas restantes.
+
+### 🛠️ Encerrar a partida e informar o resultado
+
+#### Descrição
+
+Finalize a partida quando o jogador adivinhar a palavra ou esgotar as tentativas incorretas.
+
+#### Requisitos
+
+O programa concluído deve:
+
+- Encerrar a partida quando a palavra for adivinhada ou não houver tentativas incorretas restantes.
+- Exibir uma mensagem de vitória quando o jogador adivinhar a palavra.
+- Exibir uma mensagem de derrota quando as tentativas incorretas se esgotarem.
